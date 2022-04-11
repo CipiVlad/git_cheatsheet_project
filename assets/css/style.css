@@ -163,4 +163,26 @@ main article p:last-of-type {
     font-size: 2rem;
 }
 
-.branching-merge {}
+.branching-merge {
+    display: block;
+    border-radius: 5px;
+    margin: 5% 0 5% 32%;
+}
+
+h2 {
+    font-size: 3rem;
+    color: #ffb703;
+    text-align: center;
+}
+
+.git-terminal {
+    text-align: center;
+}
+
+.buchstaben {
+    margin-top: 100px;
+}
+
+.buchstaben p {
+    margin-left: 20%;
+}
