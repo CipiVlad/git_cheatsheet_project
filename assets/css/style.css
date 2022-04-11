@@ -10,7 +10,7 @@
 #EE9B00
 #edf2f4
 #d00000
-ca6702
+#ca6702
  */
 
     {
@@ -33,6 +33,11 @@ body {
 .workingdir p {
     font-size: 2rem;
 }
+
+/* 
+
+
+*/
 
 /* header style */
 /* main style */
@@ -82,12 +87,14 @@ article p,
     background-color: #fb8500;
     width: 80px;
     height: 80px;
+    position: sticky;
+    top: 50px;
+    border-radius: 10%;
 }
 
 main article {
     display: flex;
-    margin: 3rem;
-
+    margin: 9rem 0 15rem 9rem;
 }
 
 main article h2 {
@@ -97,10 +104,13 @@ main article h2 {
 
 main article p:first-of-type {
     color: #c1c9cc;
+    padding: 7px;
+
 }
 
 main article p:nth-of-type(2) {
     color: #adb2b4;
+
 }
 
 main article p:last-of-type {
@@ -118,14 +128,54 @@ main article p:last-of-type {
     background-color: olivedrab;
     width: 80px;
     height: 80px;
+    position: sticky;
+    top: 50px;
+    border-radius: 30%;
 }
 
-.whatsgitwhite {
 
+
+.whatsgitwhite {
     background-color: #edf2f4;
     width: 80px;
     height: 80px;
+    position: sticky;
+    top: 50px;
+    border-radius: 50%;
+}
 
+.whatsgitwhite2 {
+    background-image: ("../img/kisspng-github-computer-icons-bootstrap-github-5ac018aa3b1cd1.3922050715225386662421.jpg");
+    background-size: cover;
+    /* background-color: #23b5ee; */
+    width: 100%;
+    background-size: contain;
+    position: sticky;
+    top: 50px;
+    border-radius: 50%;
+}
+
+
+.whatsgitwhite3 {
+
+    background-color: #022938;
+    width: 30px;
+    height: 30px;
+    position: sticky;
+    top: 75px;
+    left: 30px;
+    border-radius: 50%;
+}
+
+.whatsgitwhite4 {
+
+    background-color: #02293886;
+    width: 80px;
+    height: 80px;
+    position: sticky;
+    top: 50px;
+
+    border-radius: 50%;
 }
 
 .three {
@@ -134,7 +184,21 @@ main article p:last-of-type {
 
 .workingdirectory {
     display: inline-block;
-    margin: 50px 50px;
+    margin: 9rem 0 15rem 9rem;
+    margin: 3rem;
+    border-radius: 50%;
+    margin-left: 317px;
+
+}
+
+.workingdirectory img {
+    display: inline-block;
+    margin: 9rem 0 15rem 9rem;
+    margin: 3rem;
+    border-radius: 50%;
+    margin-left: 317px;
+    border: 1px solid white;
+    box-shadow: 15rem 9rem #031620;
 }
 
 .workingdirectory p {
@@ -142,10 +206,19 @@ main article p:last-of-type {
     font-size: 2rem;
 }
 
-
 .stagedarea {
     display: inline-block;
-    margin: 50px 50px;
+    margin: 9rem 0 3rem 9rem;
+
+}
+
+.stagedarea img {
+    display: inline-block;
+    margin: 9rem 0 15rem 9rem;
+    border-radius: 40%;
+    border: 1px solid white;
+    box-shadow: 15rem 9rem #031620;
+
 }
 
 .stagedarea p {
@@ -155,13 +228,25 @@ main article p:last-of-type {
 
 .gitdirectoryrepo {
     display: inline-block;
-    margin: 50px 50px;
+    margin: 9rem 0 15rem 9rem;
 }
 
 .gitdirectoryrepo p {
     color: white;
     font-size: 2rem;
+
 }
+
+.gitdirectoryrepo img {
+    display: inline-block;
+    margin: 9rem 15rem 15rem 9rem;
+    border-radius: 40%;
+    border: 1px solid white;
+    box-shadow: 15rem 9rem #031620;
+
+}
+
+
 
 .branching-merge {
     display: block;
