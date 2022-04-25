@@ -11,6 +11,7 @@
 #edf2f4
 #d00000
 #ca6702
+#EF5133      
  */
 
     {
@@ -20,7 +21,7 @@
 }
 
 html {
-    font-size: 10px;
+    font-size: 62.5%;
     scroll-behavior: smooth;
     font-family: 'Source Code Pro', monospace;
 }
@@ -34,10 +35,6 @@ body {
     font-size: 2rem;
 }
 
-/* 
-
-
-*/
 
 /* header style */
 /* main style */
@@ -72,7 +69,7 @@ article h2 {
 }
 
 /* header + main */
-article p,
+main article p,
 .buchstaben {
     color: #edf2f4;
     font-size: 2rem;
@@ -90,16 +87,24 @@ article p,
     position: sticky;
     top: 50px;
     border-radius: 10%;
+
 }
 
 main article {
     display: flex;
-    margin: 9rem 0 15rem 9rem;
+    min-height: 70vh;
+    max-width: 100%;
+    place-items: center;
+    gap: 1%;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 main article h2 {
     padding-right: 20px;
     text-align: end;
+    border-right: 2px dotted yellow;
+
 }
 
 main article p:first-of-type {
@@ -110,11 +115,13 @@ main article p:first-of-type {
 
 main article p:nth-of-type(2) {
     color: #adb2b4;
-
+    border-left: 2px solid;
+    border-right: 2px solid;
+    padding: 0 2% 0 2%;
 }
 
 main article p:last-of-type {
-    color: #7b8082;
+    color: #4a8fab;
 }
 
 
@@ -183,27 +190,23 @@ main article p:last-of-type {
 }
 
 .workingdirectory {
-    display: inline-block;
-    margin: 9rem 0 15rem 9rem;
-    margin: 3rem;
-    border-radius: 50%;
-    margin-left: 317px;
+    display: flex;
+    /* border-radius: 50%; */
+
 
 }
 
 .workingdirectory img {
-    display: inline-block;
-    margin: 9rem 0 15rem 9rem;
-    margin: 3rem;
+    margin: 10%;
     border-radius: 50%;
-    margin-left: 317px;
     border: 1px solid white;
     box-shadow: 15rem 9rem #031620;
 }
 
 .workingdirectory p {
-    color: #fb8500;
+    color: #fff;
     font-size: 2rem;
+    margin-left: 20%;
 }
 
 .stagedarea {
@@ -224,6 +227,9 @@ main article p:last-of-type {
 .stagedarea p {
     color: white;
     font-size: 2rem;
+    width: 40%;
+    margin-left: 45%;
+
 }
 
 .gitdirectoryrepo {
@@ -234,19 +240,19 @@ main article p:last-of-type {
 .gitdirectoryrepo p {
     color: white;
     font-size: 2rem;
-
+    width: 40%;
+    margin: 0 auto;
 }
 
 .gitdirectoryrepo img {
     display: inline-block;
-    margin: 9rem 15rem 15rem 9rem;
+    margin-left: 42%;
+    margin-top: 5%;
     border-radius: 40%;
     border: 1px solid white;
     box-shadow: 15rem 9rem #031620;
 
 }
-
-
 
 .branching-merge {
     display: block;
@@ -258,16 +264,42 @@ h2 {
     font-size: 3rem;
     color: #ffb703;
     text-align: center;
+    margin-top: 20%;
 }
 
 .git-terminal {
     text-align: center;
+    ;
 }
 
 .buchstaben {
-    margin-top: 100px;
+    margin-top: 20%;
 }
 
 .buchstaben p {
     margin-left: 20%;
+}
+
+.terminal {
+    margin: 10vh 0 0 21%;
+}
+
+.terminalbefehle h2 {
+    text-align: center;
+    margin: 5% 0;
+}
+
+
+.terminal img {
+    width: 80%;
+    margin-bottom: 20%;
+}
+
+.whatsgit-terminal {
+    background-color: #ffb703;
+    width: 80px;
+    height: 80px;
+    position: sticky;
+    top: 50px;
+    border-radius: 30%;
 }
